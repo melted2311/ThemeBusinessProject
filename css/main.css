@@ -1,0 +1,224 @@
+body, html {
+	font-family: 'Emilys Candy', sans-serif;
+	padding-top: 50px;
+	margin: 0;
+	
+}
+section {
+	padding: 50px 0;
+}
+/*Navigation*/
+nav {
+	background: #B147F7;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+/*NAV logo*/
+nav > img {
+	width: 40%;
+	padding: 0% 0%;
+	margin: 0% 0%;
+}
+nav > a {
+	font-family: 'Emilys Candy' , sans-serif;
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+	position: absolute;
+	left: 25px;
+	top: 10px;
+}
+nav > a > span {
+	font-family: 'Emilys+Candy' , sans-serif;
+	color: #cfc91d;
+	text-align: left;
+}
+/*NAV links*/
+nav > ul {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+}
+nav > ul > li {
+	display: inline-block;
+	padding: 0 15px;
+}
+nav > ul > li > a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+}
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+	color: #cfc91d;
+}
+/*Header*/
+
+header {
+	background-attachment: fixed;
+	background-image: url(../img/TLCflowersheader.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 100% 50%;
+	color: #F0AF31;
+	height: 500px;
+	text-align: center;
+	padding-top: 15%;
+}
+header > h1 {
+	color: #F0AF31;
+	font-size: 52px;
+	letter-spacing: 2px;
+	margin: 0;
+	text-decoration: none;
+}
+
+header img {
+	padding: 35px 0;
+}
+header > a {
+	padding: 10px 35px;
+	color: #fff;
+	background-color: #F0AF31;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out; 
+}
+header > a:hover {
+	background-color: #fff;
+	color: #0B1016;
+	cursor: pointer;
+}
+/*About section*/
+
+.about {
+	text-align: center;
+}
+.about > h3 {
+	color: #B147F7;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.about > img {
+	margin: 15px 0;
+}
+.about > p {
+	color: #7e8287;
+	line-height: 41px;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+.about > p > span {
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+
+/*Service section*/
+.service {
+	text-align: center;
+}
+.service h2 {
+	color: #B147F7;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.service img {
+	margin: 15px 0;
+}
+.service p {
+	color: #7e8287;
+	line-height: 41px;
+}
+
+/*Carousel pictures*/
+
+.gallery > div > img {
+	width: 50%;
+	
+}
+
+/*Contact section*/
+.contact {
+	margin-top: 0%;
+}
+.contact h2 {
+	text-align: center;
+	color: #B147F7;
+	font-size: 46px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.contact img {
+	margin: 1% 44%;
+}
+.contact h3 {
+	text-align: center;
+	color: #7e8287;
+	line-height: 41px;
+	width: 53%;
+	margin: auto 24%;	
+}
+.contact p {
+	text-align: center;
+	color: #7e8287;
+	line-height: 30px;
+	width: 53%;
+	margin: auto 24%;	
+}
+.formbox {
+background-image: url(../img/singleorchid.png);
+background-position: 62%;
+color: #fff;
+padding: 0px 250px;
+padding-top: 3%;
+}
+.contact button {
+clear: both;
+border: none;
+padding: 10px 35px;
+margin: 5% 45%;
+color: #fff;
+background-color: #F0AF31;
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out
+}
+.contact button:hover {
+background-color: #fff;
+color: #0B1016;
+cursor: pointer;
+}
+
+/*footer*/
+footer {
+	width: 100%;
+	padding: 10px 0;
+	background: #B147F7;
+}
+footer p {
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
